@@ -1,4 +1,5 @@
 const prompt= require("prompt-sync")();
+
 var  marks = prompt("Enter your marks")
 
 
