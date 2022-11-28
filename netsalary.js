@@ -1,4 +1,4 @@
-const prompt = require("prompt sync")();
+const prompt = require("prompt-sync")();
 var basic_salary = parseInt(basic_salary);
 basic_salary = prompt("Enter your basic salary  ");
 var benefits = parseInt(benefits);
