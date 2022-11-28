@@ -1,22 +1,25 @@
-//declaring function mark,grade
-//input should be between 0-100
-let mark = 100;
-let grade;
-//use if conditional statements so as to output the correct grade
-//mark should be greater than or equal to 79 in order to output grade A
-if (mark >= 79){
-    grade = 'A';
+const prompt= require("prompt-sync")();
+var  marks = prompt("Enter your marks")
+
+
+//marks between 79 and 100
+if(marks> 79 && marks <= 100){
+    console.log("A")
 }
-else if (mark >= 60){
-    grade = 'B'
-}
-else if (mark >= 49){
-    grade = 'C'
-}
-else if (mark >= 40){
-    grade = 'D'
-}
-else {
-    grade = 'E'
-}
-console.log(grade);
+//marks between 60 and 79
+else if (marks>=60 && marks <=79){
+    console.log("B")
+ //marks between 49 and 59
+}else if (marks>=49 && marks <=59){
+    console.log("C")
+        
+    
+    //marks between 49 and 40
+ }else if (marks>=40 && marks <=49){
+        console.log("D")
+    }
+        else {
+            console.log("E")
+                
+            
+        }
