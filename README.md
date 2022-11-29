@@ -18,6 +18,12 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 https://www.aren.co.ke/payroll/taxrates.htm
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 ##Running tests
-To run the tests use node
-To install dependancies use npm install
+
+To install dependancies use 
+npm install
+To run the tests use 
+node index.js - for the first challenge
+node speeddetector.js-for the second challenge
+node netsalary.js-for the third challenge
+
 
